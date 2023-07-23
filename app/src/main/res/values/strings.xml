@@ -2,4 +2,5 @@
     <string name="app_name">Compose One</string>
     <string name="title_activity_one">OneActivity</string>
     <string name="title_activity_two">TwoActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>
