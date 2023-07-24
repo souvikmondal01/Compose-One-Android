@@ -13,9 +13,28 @@
         android:theme="@style/Theme.ComposeOne"
         tools:targetApi="31">
         <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="true"
+            android:label="@string/title_activity_recycler_view"
+            android:theme="@style/Theme.ComposeOne">
+
+        </activity>
+        <activity
             android:name=".LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login"
+            android:theme="@style/Theme.ComposeOne">
+
+        </activity>
+        <activity
+            android:name=".OneActivity"
+            android:exported="true"
+            android:label="@string/title_activity_one"
+            android:theme="@style/Theme.ComposeOne" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
             android:theme="@style/Theme.ComposeOne">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,18 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".OneActivity"
-            android:exported="true"
-            android:label="@string/title_activity_one"
-            android:theme="@style/Theme.ComposeOne">
-
-        </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.ComposeOne" />
     </application>
 
 </manifest>
