@@ -36,6 +36,7 @@ class MainActivity : ComponentActivity() {
                         AddButton(text = "One", OneActivity())
                         AddButton(text = "Login", LoginActivity())
                         AddButton(text = "RecyclerView", RecyclerViewActivity())
+                        AddButton(text = "Animation", AnimationActivity())
                     }
                 }
             }
