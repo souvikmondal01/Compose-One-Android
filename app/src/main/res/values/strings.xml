@@ -5,4 +5,7 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_recycler_view">RecyclerViewActivity</string>
     <string name="title_activity_animation">AnimationActivity</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string name="title_activity_four">FourActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
 </resources>

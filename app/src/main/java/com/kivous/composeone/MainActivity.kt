@@ -26,7 +26,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            // A surface container using the 'background' color from the theme
             ComposeOneTheme {
 
                 Surface(
@@ -37,6 +36,10 @@ class MainActivity : ComponentActivity() {
                         AddButton(text = "Login", LoginActivity())
                         AddButton(text = "RecyclerView", RecyclerViewActivity())
                         AddButton(text = "Animation", AnimationActivity())
+                        AddButton(text = "Two", TwoActivity())
+                        AddButton(text = "Three", ThreeActivity())
+                        AddButton(text = "Four", FourActivity())
+                        AddButton(text = "Navigation", NavigationActivity())
                     }
                 }
             }

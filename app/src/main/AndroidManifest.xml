@@ -13,6 +13,26 @@
         android:theme="@style/Theme.ComposeOne"
         tools:targetApi="31">
         <activity
+            android:name=".NavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.ComposeOne" />
+        <activity
+            android:name=".FourActivity"
+            android:exported="false"
+            android:label="@string/title_activity_four"
+            android:theme="@style/Theme.ComposeOne" />
+        <activity
+            android:name=".ThreeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_three"
+            android:theme="@style/Theme.ComposeOne" />
+        <activity
+            android:name=".TwoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_two"
+            android:theme="@style/Theme.ComposeOne" />
+        <activity
             android:name=".AnimationActivity"
             android:exported="false"
             android:label="@string/title_activity_animation"
@@ -21,12 +41,12 @@
             android:name=".RecyclerViewActivity"
             android:exported="true"
             android:label="@string/title_activity_recycler_view"
-            android:theme="@style/Theme.ComposeOne"></activity>
+            android:theme="@style/Theme.ComposeOne" />
         <activity
             android:name=".LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login"
-            android:theme="@style/Theme.ComposeOne"></activity>
+            android:theme="@style/Theme.ComposeOne" />
         <activity
             android:name=".OneActivity"
             android:exported="true"
